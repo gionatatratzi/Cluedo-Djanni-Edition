@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1518872870 source:c:\users\gionatatratzi\desktop\progfinale2018\codeblocksprog2018\progettofinale2018\main.c
+	"struttureListe.h"
+	"subroutineListe.h"
+	"gestioneStanza.h"
+	"gestioneIpotesi.h"
+	"salvataggioCaricamento.h"
+	"gestioneCluedo.h"
+
+1518858440 c:\users\gionatatratzi\desktop\progfinale2018\codeblocksprog2018\progettofinale2018\struttureliste.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<time.h>
+
+1518789903 c:\users\gionatatratzi\desktop\progfinale2018\codeblocksprog2018\progettofinale2018\subroutineliste.h
+
+1518518217 source:c:\users\maris\desktop\progetto2018\progettofinale2018\main.c
+	"struttureListe.h"
+	"subroutineListe.h"
+
+1518518250 c:\users\maris\desktop\progetto2018\progettofinale2018\struttureliste.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<time.h>
+
+1517932032 c:\users\maris\desktop\progetto2018\progettofinale2018\subroutineliste.h
+
+1518702412 c:\users\gionatatratzi\desktop\progfinale2018\codeblocksprog2018\progettofinale2018\gestionestanza.h
+
+1518872768 c:\users\gionatatratzi\desktop\progfinale2018\codeblocksprog2018\progettofinale2018\gestioneipotesi.h
+
+1518872747 c:\users\gionatatratzi\desktop\progfinale2018\codeblocksprog2018\progettofinale2018\salvataggiocaricamento.h
+
+1518872768 c:\users\gionatatratzi\desktop\progfinale2018\codeblocksprog2018\progettofinale2018\gestionecluedo.h
+
+1518872870 source:c:\users\maris\desktop\progettofinale2018\main.c
+	"struttureListe.h"
+	"subroutineListe.h"
+	"gestioneStanza.h"
+	"gestioneIpotesi.h"
+	"salvataggioCaricamento.h"
+	"gestioneCluedo.h"
+
+1518879969 c:\users\maris\desktop\progettofinale2018\struttureliste.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<time.h>
+
+1518880943 c:\users\maris\desktop\progettofinale2018\subroutineliste.h
+
+1518702412 c:\users\maris\desktop\progettofinale2018\gestionestanza.h
+
+1518878966 c:\users\maris\desktop\progettofinale2018\gestioneipotesi.h
+
+1518872747 c:\users\maris\desktop\progettofinale2018\salvataggiocaricamento.h
+
+1518872768 c:\users\maris\desktop\progettofinale2018\gestionecluedo.h
+
+1519642150 source:c:\users\giotr\onedrive\desktop\progettofinale2018\progettofinale2018\main.c
+	"struttureListe.h"
+	"subroutineListe.h"
+	"gestioneStanza.h"
+	"gestioneIpotesi.h"
+	"salvataggioCaricamento.h"
+	"gestioneCluedo.h"
+
+1519642302 c:\users\giotr\onedrive\desktop\progettofinale2018\progettofinale2018\struttureliste.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<time.h>
+
+1519577680 c:\users\giotr\onedrive\desktop\progettofinale2018\progettofinale2018\subroutineliste.h
+
+1518702412 c:\users\giotr\onedrive\desktop\progettofinale2018\progettofinale2018\gestionestanza.h
+
+1519034683 c:\users\giotr\onedrive\desktop\progettofinale2018\progettofinale2018\gestioneipotesi.h
+
+1519643744 c:\users\giotr\onedrive\desktop\progettofinale2018\progettofinale2018\salvataggiocaricamento.h
+
+1518872768 c:\users\giotr\onedrive\desktop\progettofinale2018\progettofinale2018\gestionecluedo.h
+
