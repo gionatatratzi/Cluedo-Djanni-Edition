@@ -2,6 +2,7 @@
 Progetto finale di programmazione 1: cluedo djanni edition
 
 FUNZIONALITÀ BASE 20/30
+
 Il gioco deve replicare il famoso gioco da tavolo CLUEDO, con alcune varianti come specificato nel
 seguente documento.
 Il gioco è ambientato nei locali del Palazzo delle Scienze e lo scopo dei giocatori (numero scelto
@@ -67,6 +68,7 @@ Nel caso in cui venga caricata una partita esistente da un file binario (chiamat
 essere ovviamente saltati i passaggi iniziali per proseguire direttamente con il turno di gioco.
 
 FUNZIONALITÀ MEDIE 10/30
+
 Per consegnare il progetto e ambire al voto massimo devono essere implementate le seguenti
 funzionalità.
 Il nome del file da caricare/salvare deve essere scelto dall’utente.
@@ -88,6 +90,7 @@ Creazione di un logger che scriva su un file di testo tutti gli eventi della par
 6. TURNO 7 Alessandro ha lanciato i dadi, ha fatto 2+2
 
 FUNZIONALITÀ AVANZATE 6/30
+
 Per consegnare il progetto e ambire al bonus del progetto devono essere implementate le seguenti
 funzionalità.
 Dare la possibilità di eseguire la partita in modalità automatica, il tester dovrà solamente specificare il
