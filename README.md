@@ -11,12 +11,13 @@ I vari giocatori durante il gioco dovranno formulare le ipotesi del delitto del 
 Djanni nella stanza con l’arma e gli altri giocatori confuteranno o confermeranno tale ipotesi.
 Vince il giocatore che per primo indovinerà la tripla: sospetto , stanza e arma .
 
-Armi
+1. ARMI:
 Cavo di rete, Sparacoriandoli, Tastiera USB, Fumo della caldaia, Floppy disk 3.5, Calcinaccio
-Sospetti
+2. SOSPETTI:
 A. Turing, G. F. Voronoj, J. V. Neumann, E. Dijkstra, M. Hamilton, G. M. Hopper,
-Stanze
+3. STANZE
 Lab. T, Lab. M, Batcaverna, SimAz, Aula Costa, Entrata, Parcheggio, Bagno, Giardino
+
 Avviando una nuova partita, nella prima fase del gioco deve essere chiesto il numero di giocatori (da 3
 a 6) e il nome di ognuno.
 All’inizio del gioco ogni mazzo di carte viene dapprima rappresentato in un vettore statico di strutture
@@ -78,13 +79,13 @@ essere memorizzati su un file (binario o testuale) separato. Fare molta attenzio
 non esiste quando viene caricata la partita il gioco deve proseguire senza alcun problema creando da
 zero tali taccuini.
 Creazione di un logger che scriva su un file di testo tutti gli eventi della partita, ad esempio:
-....
-TURNO 6 Fabio ha lanciato i dati, ha fatto 5+3
-TURNO 6 Fabio si è spostato il Laboratorio T
-TURNO 6 Fabio ha detto che A. Turing ha ucciso Djanni in Laboratorio T con la Tastiera USB.
-TURNO 6 Riccardo ha smentito l’ipotesi facendo vedere a Fabio la carta Laboratorio T.
-TURNO 7 È il turno di Alessandro
-TURNO 7 Alessandro ha lanciato i dadi, ha fatto 2+2
+
+1. TURNO 6 Fabio ha lanciato i dati, ha fatto 5+3
+2. TURNO 6 Fabio si è spostato il Laboratorio T
+3. TURNO 6 Fabio ha detto che A. Turing ha ucciso Djanni in Laboratorio T con la Tastiera USB.
+4. TURNO 6 Riccardo ha smentito l’ipotesi facendo vedere a Fabio la carta Laboratorio T.
+5. TURNO 7 È il turno di Alessandro
+6. TURNO 7 Alessandro ha lanciato i dadi, ha fatto 2+2
 
 FUNZIONALITÀ AVANZATE 6/30
 Per consegnare il progetto e ambire al bonus del progetto devono essere implementate le seguenti
@@ -102,18 +103,18 @@ vari sospetti, le armi e le stanze siano stati tra le incognite. Visualizzare ta
 partita.
 
 STRUTTURA FILE DI SALVATAGGIO
-• un intero rappresentante il giocatore corrente un intero rappresentante il numero di turni
-• un intero rappresentante il numero di giocatori un blocco per giocatore, contenente:
-• una stringa del nome giocatore (24 char)
-• un intero rappresentante la stanza in cui si trova il giocatore
-• un intero di flag che indica se il giocatore ha formulato l’ipotesi corretta (0: no, 1: si)
-• un intero rappresentante il numero delle carte del giocatore
-• un blocco per ogni carta giocatore, contenente:
-• il tipo della carta (enum)
-• una stringa della frase riportata sulla carta (24 char)
-• un intero rappresentante le carte scoperte un blocco per ogni carta scoperta, contenente:
-• il tipo della carta (enum)
-• una stringa della frase riportata sulla carta (24 char)
-• un blocco per ogni carta incognita (3), contenente:
-• il tipo della carta (enum)
-• una stringa della frase riportata sulla carta (24 char)
+1. un intero rappresentante il giocatore corrente un intero rappresentante il numero di turni
+2. un intero rappresentante il numero di giocatori un blocco per giocatore, contenente:
+3. una stringa del nome giocatore (24 char)
+4. un intero rappresentante la stanza in cui si trova il giocatore
+5. un intero di flag che indica se il giocatore ha formulato l’ipotesi corretta (0: no, 1: si)
+6. un intero rappresentante il numero delle carte del giocatore
+7. un blocco per ogni carta giocatore, contenente:
+8. il tipo della carta (enum)
+9. una stringa della frase riportata sulla carta (24 char)
+10. un intero rappresentante le carte scoperte un blocco per ogni carta scoperta, contenente:
+11. il tipo della carta (enum)
+12. una stringa della frase riportata sulla carta (24 char)
+13. un blocco per ogni carta incognita (3), contenente:
+14. il tipo della carta (enum)
+15. una stringa della frase riportata sulla carta (24 char)
